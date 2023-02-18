@@ -91,7 +91,7 @@ in derive ({
     maven
     ninja
     pkg-config
-    python2
+    # python2
     (python3.withPackages (ps: with ps; [
       aiohttp
       boto3
